@@ -4,7 +4,7 @@ export default function Header() {
         <header className="navbar" role="banner">
   <div className="navbar__container">
     <a href="#" className="navbar__brand">
-      Music Collector
+      Music <span>Collector</span> 
     </a>
     <button
       className="navbar__toggle"

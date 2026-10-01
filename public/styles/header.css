@@ -16,7 +16,7 @@ body {
 
         
 body::after {
-    content: 'Scroll down to observe the navbar. The neumorphic effect is created with carefully layered box-shadows on a soft, off-white background.';
+    content: '';
     display: block;
     text-align: center;
     height: 200vh;
@@ -50,6 +50,12 @@ ul { list-style: none; margin: 0; padding: 0; }
 .navbar__brand {
     font-size: 1.5rem;
     font-weight: var(--font-weight-bold);
+    
+}
+span {
+    color: rgb(174, 92, 92);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 .navbar__toggle {
