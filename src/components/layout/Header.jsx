@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router';
 export default function Header() {
     return (
         <>
@@ -44,7 +45,7 @@ export default function Header() {
           </a>
         </li>
         <li className="navbar__item navbar__item--cta">
-          <a href="#" className="navbar__link navbar__link--cta">
+          <a to="/login" className="navbar__link navbar__link--cta">
             Login
           </a>
         </li>
