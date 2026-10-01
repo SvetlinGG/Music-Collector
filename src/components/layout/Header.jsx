@@ -1,0 +1,53 @@
+export default function Header() {
+    return (
+        <>
+        <header className="navbar" role="banner">
+  <div className="navbar__container">
+    <a href="#" className="navbar__brand">
+      NeuBrand
+    </a>
+    <button
+      className="navbar__toggle"
+      id="navbarToggle"
+      aria-label="Toggle navigation"
+      aria-controls="navbarMenu"
+      aria-expanded="false"
+    >
+      <span className="bar" />
+    </button>
+    <nav
+      id="navbarMenu"
+      className="navbar__menu"
+      role="navigation"
+      aria-labelledby="navbarToggle"
+    >
+      <ul className="navbar__list">
+        {/* Added a class for the active link demonstration on desktop */}
+        <li className="navbar__item">
+          <a href="#" className="navbar__link navbar__link--active">
+            Home
+          </a>
+        </li>
+        <li className="navbar__item">
+          <a href="#" className="navbar__link">
+            Products
+          </a>
+        </li>
+        <li className="navbar__item">
+          <a href="#" className="navbar__link">
+            Showcase
+          </a>
+        </li>
+        <li className="navbar__item navbar__item--cta">
+          <a href="#" className="navbar__link navbar__link--cta">
+            Login
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+        </>
+    );
+}
