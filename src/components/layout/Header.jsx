@@ -4,7 +4,7 @@ export default function Header() {
         <header className="navbar" role="banner">
   <div className="navbar__container">
     <a href="#" className="navbar__brand">
-      NeuBrand
+      Music Collector
     </a>
     <button
       className="navbar__toggle"
@@ -22,7 +22,7 @@ export default function Header() {
       aria-labelledby="navbarToggle"
     >
       <ul className="navbar__list">
-        {/* Added a class for the active link demonstration on desktop */}
+        
         <li className="navbar__item">
           <a href="#" className="navbar__link navbar__link--active">
             Home
@@ -30,12 +30,17 @@ export default function Header() {
         </li>
         <li className="navbar__item">
           <a href="#" className="navbar__link">
-            Products
+            Catalog
+          </a>
+        </li>
+         <li className="navbar__item">
+          <a href="#" className="navbar__link">
+            My Collection
           </a>
         </li>
         <li className="navbar__item">
           <a href="#" className="navbar__link">
-            Showcase
+            Register
           </a>
         </li>
         <li className="navbar__item navbar__item--cta">
