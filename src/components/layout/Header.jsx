@@ -7,7 +7,7 @@ export default function Header() {
     <a href="#" className="navbar__brand">
       Music <span>Collector</span> 
     </a>
-    <button
+    {/* <button
       className="navbar__toggle"
       id="navbarToggle"
       aria-label="Toggle navigation"
@@ -15,7 +15,7 @@ export default function Header() {
       aria-expanded="false"
     >
       <span className="bar" />
-    </button>
+    </button> */}
     <nav
       id="navbarMenu"
       className="navbar__menu"

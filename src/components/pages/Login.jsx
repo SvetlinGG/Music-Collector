@@ -3,14 +3,14 @@ export default function Login() {
         <>
         <div className="content">
             <div className="text">Login Form</div>
-            <form action="#">
+            <form >
             <div className="field">
-                <input type="text" required="" />
+                <input type="text" placeholder="email..." required="" />
                 <span className="fas fa-user" />
                 <label>Email or Phone</label>
             </div>
             <div className="field">
-                <input type="password" required="" />
+                <input type="password" placeholder="password..."  required="" />
                 <span className="fas fa-lock" />
                 <label>Password</label>
             </div>
