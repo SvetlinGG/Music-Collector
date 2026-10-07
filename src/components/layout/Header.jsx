@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router';
+import { NavLink, Link } from 'react-router';
 export default function Header() {
     return (
         <>
@@ -45,9 +45,9 @@ export default function Header() {
           </a>
         </li>
         <li className="navbar__item navbar__item--cta">
-          <a to="/login" className="navbar__link navbar__link--cta">
+          <Link to="/login" className="navbar__link navbar__link--cta">
             Login
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

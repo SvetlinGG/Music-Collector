@@ -1,7 +1,7 @@
 
 import Header from './components/layout/Header'
 import Login from './components/pages/Login'
-
+import { Route, Routes } from 'react-router'
 
 
 function App() {
@@ -10,7 +10,10 @@ function App() {
   return (
     <>
       <Header />
-      <Login />
+      <Routes>
+        <Route path='/login' element={<Login />} />
+      </Routes>
+      
     </>
   )
 }
