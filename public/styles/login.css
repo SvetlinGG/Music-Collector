@@ -17,6 +17,7 @@ body{
   text-align: center;
 }
 .content{
+  margin: 5em auto;
   width: 330px;
   padding: 40px 30px;
   background: #dde1e7;
