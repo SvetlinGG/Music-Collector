@@ -6,17 +6,17 @@ export default function Register() {
             <div className="field">
                 <input type="text" placeholder="name..." required="" />
                 <span className="fas fa-user" />
-                <label>Your Name</label>
+                
             </div>
             <div className="field">
                 <input type="text" placeholder="email..." required="" />
                 <span className="fas fa-user" />
-                <label>Email or Phone</label>
+                
             </div>
             <div className="field">
                 <input type="password" placeholder="password..."  required="" />
                 <span className="fas fa-lock" />
-                <label>Password</label>
+                
             </div>
             <div className="forgot-pass">
             <a href="#">Forgot Password?</a>
