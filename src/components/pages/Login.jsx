@@ -5,7 +5,7 @@ export default function Login() {
             <div className="text">Login Form</div>
             <form >
             <div className="field">
-                <input type="text"  required="" />
+                <input type="text" placeholder="email..."  required="" />
                 <span className="fas fa-user" />
                 <label>Email or Phone</label>
             </div>

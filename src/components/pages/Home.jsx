@@ -21,7 +21,7 @@ export default function Home() {
           <line x1={21} y1={21} x2="16.65" y2="16.65" />
             </svg>
             </div>
-      <div className="InputContainer">
+      <div className="InputArea">
         <input placeholder="search artist..." />
       </div>
     </div>

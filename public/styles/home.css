@@ -60,7 +60,7 @@ label {
   -webkit-text-fill-color: transparent;
 }
 
-.InputContainer {
+.InputArea {
   width: 100%;
 }
 
@@ -85,14 +85,14 @@ input:focus {
   background-color: #eff5fa;
 }
 
-.InputContainer {
+.InputArea {
   --top-shadow: inset 1px 1px 3px #c5d4e3, inset 2px 2px 6px #c5d4e3;
   --bottom-shadow: inset -2px -2px 4px rgba(255,255,255, .7);
   position: relative;
   border-radius: var(--border-radius);
   overflow: hidden;
 }
-.InputContainer:before, .InputContainer:after {
+.InputArea:before, .InputArea:after {
   left: 0;
   top: 0;
   display: block;
@@ -102,9 +102,9 @@ input:focus {
   height: 100%;
   position: absolute;
 }
-.InputContainer:before {
+.InputArea:before {
   box-shadow: var(--bottom-shadow);
 }
-.InputContainer:after {
+.InputArea:after {
   box-shadow: var(--top-shadow);
 }

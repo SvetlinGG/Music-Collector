@@ -25,9 +25,9 @@ export default function Header() {
       <ul className="navbar__list">
         
         <li className="navbar__item">
-          <a href="#" className="navbar__link navbar__link--active">
+          <Link to="/" className="navbar__link navbar__link--active">
             Home
-          </a>
+          </Link>
         </li>
         <li className="navbar__item">
           <a href="#" className="navbar__link">
