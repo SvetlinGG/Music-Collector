@@ -40,9 +40,9 @@ export default function Header() {
           </a>
         </li>
         <li className="navbar__item">
-          <a href="#" className="navbar__link">
+          <Link to="/register" className="navbar__link">
             Register
-          </a>
+          </Link>
         </li>
         <li className="navbar__item navbar__item--cta">
           <Link to="/login" className="navbar__link navbar__link--cta">
