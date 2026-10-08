@@ -15,12 +15,12 @@ export default function Login() {
                 
             </div>
             <div className="forgot-pass">
-            <Link href="#">Forgot Password?</Link>
+            <Link to="/">Forgot Password?</Link>
             </div>
             <button>Sign in</button>
             <div className="sign-up">
                 Not a member?
-            <a href="#">signup now</a>
+            <Link to="/">signup now</Link>
             </div>
             </form>
         </div>
