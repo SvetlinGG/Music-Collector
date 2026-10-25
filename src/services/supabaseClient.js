@@ -1,7 +1,7 @@
 const baseUrl = 'https://pntezrlzpnvbmxjltaqr.supabase.co/rest/v1/users'
 const apiKey = 'sb_publishable_1YnOAlXkaINLpwxGrT8QNg_-ssIpzlT';
 
-export default async function request(path='/', method ="GET", data = null){
+export default async function requestSupabase(path='/', method ="GET", data = null){
 
     const options = {
         headers: {
@@ -19,7 +19,7 @@ export default async function request(path='/', method ="GET", data = null){
         options.body = JSON.stringify(data);
     }
 
-    const response = await fetch(`${url}${path}`, options);
+    const response = await fetch(`${baseUrl}${path}`, options);
 
     if (!response){
         throw new Error(`Error: ${response.status}`)
