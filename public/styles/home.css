@@ -108,3 +108,16 @@ input:focus {
 .InputArea:after {
   box-shadow: var(--top-shadow);
 }
+
+.music-card {
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    top: 20px;
+    position: relative;
+    backdrop-filter: blur(8px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

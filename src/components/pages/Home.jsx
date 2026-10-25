@@ -1,5 +1,6 @@
 export default function Home() {
     return (
+      <>
        <div className="Card">
             <div className="CardInner">
                 <label>Search for your favourite music</label>
@@ -28,5 +29,27 @@ export default function Home() {
   </div>
 </div>
 
+<div className="music-card-container">
+<div className="music-card">
+      <div className="flipping-container">
+        <div className="image-container">
+          <img
+            src="https://raw.githubusercontent.com/workofaditya/Interactive-Cards/refs/heads/main/assets/husn.png"
+            alt="Husn"
+            className="cover-image"
+          />
+        </div>
+        <div className="card-back">
+          <button className="play-button">Play</button>
+          <div className="progress-bar-container">
+            <div className="progress-bar" />
+          </div>
+        </div>
+      </div>
+      <h2 className="song-title">Husn</h2>
+      <p className="artist-name">Anuv Jain</p>
+    </div>
+    </div>
+      </>
     );
 }
