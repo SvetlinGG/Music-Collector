@@ -30,9 +30,9 @@ export default function Header() {
           </Link>
         </li>
         <li className="navbar__item">
-          <a href="#" className="navbar__link">
+          <Link to="/catalog" className="navbar__link">
             Catalog
-          </a>
+          </Link>
         </li>
          <li className="navbar__item">
           <a href="#" className="navbar__link">
