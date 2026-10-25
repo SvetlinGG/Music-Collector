@@ -4,6 +4,7 @@ import Login from './components/pages/Login'
 import { Route, Routes } from 'react-router'
 import Register from './components/register/Register'
 import Home from './components/pages/Home'
+import Catalog from './components/pages/Catalog'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/catalog' element={<Catalog />} />
       </Routes>
       
     </>
